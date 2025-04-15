@@ -53,6 +53,7 @@ npm install
 
 ```bash
 MONGO_URI=mongodb://localhost:27017/ecommerce-analytics
+PORT=4000
 
 ### 4. Start the server
 ```bash
