@@ -28,6 +28,7 @@ A Node.js + MongoDB + GraphQL API to analyze customer orders, track sales, and v
 
 ---
 
+
 ##  Setup Instructions
 
 ### 1. Clone the repo
@@ -36,8 +37,13 @@ A Node.js + MongoDB + GraphQL API to analyze customer orders, track sales, and v
 git clone https://github.com//Abhijit-Kasi/Sales-Analytics.git  
 cd Abhijit-Kasi
 
+### 1. Clone the repo
 
----
+```bash
+git clone https://github.com//Abhijit-Kasi/Sales-Analytics.git  
+cd Abhijit-Kasi
+
+--------
 ### 2. Install Dependencies
 
 ```bash
@@ -46,9 +52,7 @@ npm install
 ### 3. Create .env file
 
 ```bash
-MONGO_URI=mongodb://localhost:27017/analytics
-REDIS_URL=redis://127.0.0.1:6379
-PORT=4000
+MONGO_URI=mongodb://localhost:27017/ecommerce-analytics
 
 ### 4. Start the server
 ```bash
